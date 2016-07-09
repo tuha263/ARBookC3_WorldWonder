@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: dddc8097909d34c6396d0154cffda88c
+timeCreated: 1468032333
+licenseType: Pro
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 5abd0150b01f7b14b9f604d53d232f15
+  longitude: 151.21501150366925
+  latitude: -33.857662525718766
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -93.64055, y: 337.7422, z: 375.41415}
+      lookAt: {x: 13.42069, y: 35.735577, z: 81.05217}
+      up: {x: 0.23724249, y: 0.7198829, z: -0.65229183}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: -121.57158, y: 60.892147, z: 270.5878}
+        lookAt: {x: 117.34218, y: -38.262524, z: -79.28024}
+        up: {x: 0.12851097, y: 0.97368807, z: -0.18819292}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Home
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Glass One
+    100004: Glass One 1
+    100006: Glass One#1
+    100008: Group 3
+    100010: Group 47
+    100012: Lamp
+    100014: Main Shell
+    100016: Main Shell 1
+    100018: Main Shell 2
+    100020: Main Shell 3
+    100022: Mid Shell Windows
+    100024: Mid Shell Windows 1
+    100026: Mid Shell Windows 2
+    100028: Mid Shell Windows 3
+    100030: Secondary Shell
+    100032: Secondary Shell 1
+    100034: Secondary Shell 2
+    100036: Secondary Shell 3
+    100038: Shell 4
+    100040: Shell 4 1
+    100042: Shell 4 2
+    100044: Shell 4 3
+    100046: Side Shell Five
+    100048: Side Shell Five 1
+    100050: Side Shell Five 2
+    100052: Side Shell Five 3
+    100054: Side Shell Four
+    100056: Side Shell Four 1
+    100058: Side Shell Four 2
+    100060: Side Shell Four 3
+    100062: Side Shell One
+    100064: Side Shell One 1
+    100066: Side Shell One 2
+    100068: Side Shell One 3
+    100070: Side Shell Three
+    100072: Side Shell Three 1
+    100074: Side Shell Three 2
+    100076: Side Shell Three 3
+    100078: Side Shell Two
+    100080: Side Shell Two 1
+    100082: Side Shell Two 2
+    100084: Side Shell Two 3
+    100086: Sign
+    100088: Sign 1
+    100090: Sign 2
+    100092: Sign 3
+    100094: //RootNode
+    100096: Third Shell
+    100098: Third Shell 1
+    100100: Third Shell 2
+    100102: Third Shell 3
+    400000: Base
+    400002: Glass One
+    400004: Glass One 1
+    400006: Glass One#1
+    400008: Group 3
+    400010: Group 47
+    400012: Lamp
+    400014: Main Shell
+    400016: Main Shell 1
+    400018: Main Shell 2
+    400020: Main Shell 3
+    400022: Mid Shell Windows
+    400024: Mid Shell Windows 1
+    400026: Mid Shell Windows 2
+    400028: Mid Shell Windows 3
+    400030: Secondary Shell
+    400032: Secondary Shell 1
+    400034: Secondary Shell 2
+    400036: Secondary Shell 3
+    400038: Shell 4
+    400040: Shell 4 1
+    400042: Shell 4 2
+    400044: Shell 4 3
+    400046: Side Shell Five
+    400048: Side Shell Five 1
+    400050: Side Shell Five 2
+    400052: Side Shell Five 3
+    400054: Side Shell Four
+    400056: Side Shell Four 1
+    400058: Side Shell Four 2
+    400060: Side Shell Four 3
+    400062: Side Shell One
+    400064: Side Shell One 1
+    400066: Side Shell One 2
+    400068: Side Shell One 3
+    400070: Side Shell Three
+    400072: Side Shell Three 1
+    400074: Side Shell Three 2
+    400076: Side Shell Three 3
+    400078: Side Shell Two
+    400080: Side Shell Two 1
+    400082: Side Shell Two 2
+    400084: Side Shell Two 3
+    400086: Sign
+    400088: Sign 1
+    400090: Sign 2
+    400092: Sign 3
+    400094: //RootNode
+    400096: Third Shell
+    400098: Third Shell 1
+    400100: Third Shell 2
+    400102: Third Shell 3
+    2300000: Base
+    2300002: Glass One
+    2300004: Glass One 1
+    2300006: Glass One#1
+    2300008: Group 3
+    2300010: Group 47
+    2300012: Lamp
+    2300014: Main Shell
+    2300016: Main Shell 1
+    2300018: Main Shell 2
+    2300020: Main Shell 3
+    2300022: Mid Shell Windows
+    2300024: Mid Shell Windows 1
+    2300026: Mid Shell Windows 2
+    2300028: Mid Shell Windows 3
+    2300030: Secondary Shell
+    2300032: Secondary Shell 1
+    2300034: Secondary Shell 2
+    2300036: Secondary Shell 3
+    2300038: Shell 4
+    2300040: Shell 4 1
+    2300042: Shell 4 2
+    2300044: Shell 4 3
+    2300046: Side Shell Five
+    2300048: Side Shell Five 1
+    2300050: Side Shell Five 2
+    2300052: Side Shell Five 3
+    2300054: Side Shell Four
+    2300056: Side Shell Four 1
+    2300058: Side Shell Four 2
+    2300060: Side Shell Four 3
+    2300062: Side Shell One
+    2300064: Side Shell One 1
+    2300066: Side Shell One 2
+    2300068: Side Shell One 3
+    2300070: Side Shell Three
+    2300072: Side Shell Three 1
+    2300074: Side Shell Three 2
+    2300076: Side Shell Three 3
+    2300078: Side Shell Two
+    2300080: Side Shell Two 1
+    2300082: Side Shell Two 2
+    2300084: Side Shell Two 3
+    2300086: Sign
+    2300088: Sign 1
+    2300090: Sign 2
+    2300092: Sign 3
+    2300094: Third Shell
+    2300096: Third Shell 1
+    2300098: Third Shell 2
+    2300100: Third Shell 3
+    3300000: Base
+    3300002: Glass One
+    3300004: Glass One 1
+    3300006: Glass One#1
+    3300008: Group 3
+    3300010: Group 47
+    3300012: Lamp
+    3300014: Main Shell
+    3300016: Main Shell 1
+    3300018: Main Shell 2
+    3300020: Main Shell 3
+    3300022: Mid Shell Windows
+    3300024: Mid Shell Windows 1
+    3300026: Mid Shell Windows 2
+    3300028: Mid Shell Windows 3
+    3300030: Secondary Shell
+    3300032: Secondary Shell 1
+    3300034: Secondary Shell 2
+    3300036: Secondary Shell 3
+    3300038: Shell 4
+    3300040: Shell 4 1
+    3300042: Shell 4 2
+    3300044: Shell 4 3
+    3300046: Side Shell Five
+    3300048: Side Shell Five 1
+    3300050: Side Shell Five 2
+    3300052: Side Shell Five 3
+    3300054: Side Shell Four
+    3300056: Side Shell Four 1
+    3300058: Side Shell Four 2
+    3300060: Side Shell Four 3
+    3300062: Side Shell One
+    3300064: Side Shell One 1
+    3300066: Side Shell One 2
+    3300068: Side Shell One 3
+    3300070: Side Shell Three
+    3300072: Side Shell Three 1
+    3300074: Side Shell Three 2
+    3300076: Side Shell Three 3
+    3300078: Side Shell Two
+    3300080: Side Shell Two 1
+    3300082: Side Shell Two 2
+    3300084: Side Shell Two 3
+    3300086: Sign
+    3300088: Sign 1
+    3300090: Sign 2
+    3300092: Sign 3
+    3300094: Third Shell
+    3300096: Third Shell 1
+    3300098: Third Shell 2
+    3300100: Third Shell 3
+    4300000: Mesh Group 3
+    4300002: Mesh Glass One#1
+    4300004: Mesh Mid Shell Windows
+    4300006: Mesh Side Shell Five
+    4300008: Mesh Side Shell Four
+    4300010: Mesh Third Shell
+    4300012: Mesh Side Shell Three
+    4300014: Mesh Side Shell Two
+    4300016: Mesh Side Shell One
+    4300018: Mesh Main Shell
+    4300020: Mesh Secondary Shell
+    4300022: Mesh Shell 4
+    4300024: Mesh Group 47
+    4300026: Mesh Glass One
+    4300028: Mesh Glass One
+    4300030: Mesh Base
+    4300032: Mesh Lamp
+    4300034: Mesh Sign
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

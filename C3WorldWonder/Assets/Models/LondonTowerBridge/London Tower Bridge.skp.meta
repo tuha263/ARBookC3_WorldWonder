@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: e9cdb4a4fa68f4bdb82330761570c3ab
+timeCreated: 1468031990
+licenseType: Pro
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000400000005000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 9d257eecb7dc74a7d6e316f97e943059
+  longitude: -0.07532827555100141
+  latitude: 51.50547865297388
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 83.75198, y: 119.58501, z: -70.93828}
+      lookAt: {x: 51.896477, y: 86.80451, z: -37.580784}
+      up: {x: -0.400084, y: 0.8151169, z: 0.41894796}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: -206.5163, y: 19.900045, z: -49.60966}
+        lookAt: {x: 329.96713, y: 63.568127, z: 38.911236}
+        up: {x: -0.07898522, y: 0.9967906, z: -0.013032729}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 1
+    - camera:
+        position: {x: -139.56393, y: 27.814219, z: 16.213263}
+        lookAt: {x: 399.5409, y: 64.28023, z: -58.57661}
+        up: {x: -0.06621608, y: 0.99776304, z: 0.009186139}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 2
+    - camera:
+        position: {x: -58.483086, y: 73.19858, z: 133.11838}
+        lookAt: {x: 210.2994, y: -31.069136, z: -329.95996}
+        up: {x: 0.0959539, y: 0.9815617, z: -0.16531646}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 3
+    - camera:
+        position: {x: 86.57525, y: 44.130875, z: 135.87718}
+        lookAt: {x: -184.46094, y: 48.03136, z: -337.49527}
+        up: {x: 0.003552926, y: 0.9999744, z: 0.0062052873}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 4
+    - camera:
+        position: {x: 162.68451, y: 16.962734, z: 34.87624}
+        lookAt: {x: -354.6505, y: 108.77367, z: -111.72707}
+        up: {x: 0.16193318, y: 0.9857342, z: 0.04588891}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 5
+    - camera:
+        position: {x: 82.412155, y: 68.45828, z: -126.76232}
+        lookAt: {x: -303.4786, y: -3.7556722, z: 251.96025}
+        up: {x: -0.09448312, y: 0.9911985, z: 0.09272803}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 6
+    - camera:
+        position: {x: -104.609055, y: 127.58442, z: -227.07768}
+        lookAt: {x: 34.62682, y: -49.966404, z: 269.5574}
+        up: {x: 0.08786598, y: 0.9455456, z: 0.31340578}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 7
+    - camera:
+        position: {x: -311.55573, y: 102.88468, z: -63.25357}
+        lookAt: {x: 193.09383, y: -15.931382, z: 106.36037}
+        up: {x: 0.20646627, y: 0.9759898, z: 0.06939381}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 8
+    - camera:
+        position: {x: -241.96506, y: 48.125042, z: 85.737274}
+        lookAt: {x: 284.281, y: 4.8243995, z: -51.184086}
+        up: {x: 0.076821916, y: 0.9968445, z: -0.019987917}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 9
+    - camera:
+        position: {x: -107.79001, y: 25.782618, z: 53.667637}
+        lookAt: {x: 399.58322, y: -4.9505343, z: -144.28487}
+        up: {x: 0.052487317, y: 0.9984116, z: -0.020478014}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 10
+    - camera:
+        position: {x: -10.076485, y: 11.207154, z: 7.2662973}
+        lookAt: {x: 524.8213, y: 31.648048, z: 112.26094}
+        up: {x: -0.03677098, y: 0.9992977, z: -0.0072177453}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 11
+    - camera:
+        position: {x: 57.96071, y: 11.413643, z: -54.197548}
+        lookAt: {x: -74.31783, y: 81.68439, z: 470.3229}
+        up: {x: 0.031501204, y: 0.9916678, z: -0.12491086}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 12
+    - camera:
+        position: {x: 95.88288, y: 18.929111, z: -36.628845}
+        lookAt: {x: -393.79984, y: 109.864685, z: 185.85458}
+        up: {x: 0.15177421, y: 0.98600686, z: -0.0689574}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 13
+    - camera:
+        position: {x: 153.32652, y: 12.351054, z: -61.531513}
+        lookAt: {x: -336.35617, y: 103.28662, z: 160.95192}
+        up: {x: 0.15177421, y: 0.98600686, z: -0.0689574}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 14
+    - camera:
+        position: {x: 144.59695, y: 66.199234, z: -224.98158}
+        lookAt: {x: -162.1198, y: -5.3925896, z: 220.39104}
+        up: {x: -0.07443946, y: 0.9913502, z: 0.10809092}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 15
+    - camera:
+        position: {x: -126.67238, y: 52.693825, z: -249.478}
+        lookAt: {x: 101.07122, y: 7.7121677, z: 244.14818}
+        up: {x: 0.03454559, y: 0.99659425, z: 0.074876346}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 16
+    - camera:
+        position: {x: -26.683775, y: 19.501427, z: -40.50058}
+        lookAt: {x: 209.05634, y: 99.12389, z: 444.93134}
+        up: {x: -0.063763924, y: 0.9892897, z: -0.13130155}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 17
+    - camera:
+        position: {x: -17.154335, y: 25.449945, z: -19.364447}
+        lookAt: {x: 218.58577, y: 105.07241, z: 466.06754}
+        up: {x: -0.063763924, y: 0.9892897, z: -0.13130155}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 21
+    - camera:
+        position: {x: -140.57698, y: 65.5526, z: 33.86372}
+        lookAt: {x: 395.70612, y: -33.6023, z: 22.63707}
+        up: {x: 0.18173297, y: 0.98334056, z: -0.003804431}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 19
+    - camera:
+        position: {x: -188.44267, y: 30.783396, z: -58.370514}
+        lookAt: {x: 324.55203, y: 56.612606, z: 125.27757}
+        up: {x: -0.04458008, y: 0.99887836, z: -0.01595932}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 20
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bryce
+    100002: //RootNode
+    400000: Bryce
+    400002: //RootNode
+    2300000: Bryce
+    2300002: //RootNode
+    3300000: Bryce
+    3300002: //RootNode
+    4300000: Mesh London Tower Bridge
+    4300002: Mesh Bryce
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

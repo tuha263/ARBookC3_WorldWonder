@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#E2E1E0"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/PG_MATH_TITLE"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:paddingBottom="5dp"
+        android:paddingTop="7dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/PG_MATH_TEXT"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:padding="0dp"
+        android:textColor="#000"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="5 * 5 = "
+        android:id="@+id/parental_gate_show_equation"
+        android:layout_gravity="center_horizontal"
+        android:padding="0dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/PG_MATH_ERROR"
+        android:visibility="invisible"
+        android:id="@+id/parental_gate_result"
+        android:layout_gravity="center_horizontal"
+        android:padding="1dp"
+        android:textColor="#000"
+        android:paddingBottom="3dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:onClick="onClick"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0dp"
+            android:background="#B5B4B3"
+            android:layout_marginLeft="0dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:onClick="onClick"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#B5B4B3"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:onClick="onClick"
+            android:layout_marginLeft="0.5dp"
+            android:background="#B5B4B3"
+            android:layout_marginRight="0dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:onClick="onClick"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:background="#B5B4B3"
+            android:layout_marginLeft="0dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:onClick="onClick"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginRight="0dp"
+            android:background="#B5B4B3"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:onClick="onClick"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:background="#B5B4B3"
+            android:layout_marginRight="0dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/layout/activity_parental_gate.xml -->

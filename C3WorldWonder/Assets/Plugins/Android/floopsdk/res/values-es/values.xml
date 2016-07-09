@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Vuelve a intentarlo.</string>
+    <string name="PG_MATH_TEXT">Se necesita el permiso de los padres para continuar.</string>
+    <string name="PG_MATH_TITLE">Pide permiso a tus padres</string>
+</resources>

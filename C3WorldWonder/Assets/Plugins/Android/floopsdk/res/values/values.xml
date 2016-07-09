@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Try again</string>
+    <string name="PG_MATH_TEXT">Parental permission is required to continue.</string>
+    <string name="PG_MATH_TITLE">Ask your parents</string>
+    <string name="app_name">FloopSDK</string>
+    <string name="bg_timer">bg</string>
+    <string name="close_video">close</string>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="myDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

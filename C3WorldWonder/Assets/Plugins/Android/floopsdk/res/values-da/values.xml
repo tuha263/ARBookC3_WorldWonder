@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values-da/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Forsøg igen</string>
+    <string name="PG_MATH_TEXT">Forældres tilladelse kræves for at fotsætte.</string>
+    <string name="PG_MATH_TITLE">Spørg dine forældre</string>
+</resources>

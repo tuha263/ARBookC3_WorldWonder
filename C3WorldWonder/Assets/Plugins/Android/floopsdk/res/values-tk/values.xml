@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values-tk/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Tekrar deneyin</string>
+    <string name="PG_MATH_TEXT">Devam etmek için ebeveyn izni gereklidir.</string>
+    <string name="PG_MATH_TITLE">Ebeveynlerinize sorun</string>
+</resources>

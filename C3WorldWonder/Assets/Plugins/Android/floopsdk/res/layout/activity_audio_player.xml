@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right">
+
+        <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/button1"
+                android:src="@mipmap/close_icon"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/close_video"
+                android:layout_gravity="right|top"
+                android:scaleType="centerInside"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:adjustViewBounds="false" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/bg_timer"
+            android:layout_gravity="left|top"
+            android:src="@mipmap/bg_icon"
+            android:contentDescription="@string/bg_timer"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/timer"
+            android:layout_gravity="left|top"
+            android:textColor="#fff"
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="visible" />
+
+</FrameLayout><!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/layout/activity_audio_player.xml -->

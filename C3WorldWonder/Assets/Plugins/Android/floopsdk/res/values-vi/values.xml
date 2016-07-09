@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values-vi/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Hãy thử lại</string>
+    <string name="PG_MATH_TEXT">Cần có sự cho phép của cha mẹ để tiếp tục.</string>
+    <string name="PG_MATH_TITLE">Hãy hỏi cha mẹ của bạn</string>
+</resources>

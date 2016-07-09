@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Zkuste to znovu</string>
+    <string name="PG_MATH_TEXT">K pokračování je potřeba svolení rodičů.</string>
+    <string name="PG_MATH_TITLE">Zeptej se rodičů</string>
+</resources>

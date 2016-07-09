@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/epok/Dev/flooptech/android/floop-android-sdk/app/src/main/res/values-id/strings.xml -->
+    <eat-comment/>
+    <string name="PG_MATH_ERROR">Coba lagi</string>
+    <string name="PG_MATH_TEXT">Izin dari orangtua diperlukan untuk melanjutkan.</string>
+    <string name="PG_MATH_TITLE">Minta izin dari orangtuamu</string>
+</resources>

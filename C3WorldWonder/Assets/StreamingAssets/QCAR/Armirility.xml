@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="xuong" size="1.000000 0.700579" />
+    <ImageTarget name="tiemkich" size="1.000000 0.859459" />
+    <ImageTarget name="tausanbay" size="1.000000 0.688400" />
+    <ImageTarget name="tenlua" size="1.000000 0.480354" />
+    <ImageTarget name="phaotuhanh" size="1.000000 0.480354" />
+    <ImageTarget name="phao" size="1.000000 0.688400" />
+    <ImageTarget name="taungam" size="1.000000 0.653200" />
+    <ImageTarget name="tauchien" size="1.000000 0.688400" />
+    <ImageTarget name="thietgiap" size="1.000000 0.464561" />
+    <ImageTarget name="CARD2" size="1.000000 1.635385" />
+    <ImageTarget name="cover" size="1.000000 0.750212" />
+    <ImageTarget name="xetrinhsat" size="1.000000 0.480354" />
+    <ImageTarget name="xetang" size="1.000000 0.688400" />
+    <ImageTarget name="xephongkhong" size="1.000000 0.480354" />
+    <ImageTarget name="xebobinh" size="1.000000 0.480354" />
+    <ImageTarget name="tructhang" size="1.000000 0.688400" />
+    <ImageTarget name="maybayvantai" size="1.000000 0.480354" />
+  </Tracking>
+</QCARConfig>

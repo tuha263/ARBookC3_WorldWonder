@@ -5,6 +5,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using System.Collections;
 
 namespace Vuforia
 {
@@ -13,7 +14,13 @@ namespace Vuforia
     /// </summary>
     public class DefaultTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
+
     {
+        public string name;
+
+        public GameObject vehicle;
+        private MainManagerScript mainManagerScript;
+
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
@@ -21,6 +28,11 @@ namespace Vuforia
         #endregion // PRIVATE_MEMBER_VARIABLES
 
 
+
+        void Awake()
+        {
+            mainManagerScript = GameObject.Find("MainManager").GetComponent<MainManagerScript>();
+        }
 
         #region UNTIY_MONOBEHAVIOUR_METHODS
     
@@ -77,12 +89,21 @@ namespace Vuforia
                 component.enabled = true;
             }
 
-            // Enable colliders:
-            foreach (Collider component in colliderComponents)
+            //gameObject.GetComponentInChildren<RollControllerScript>().ResetAnimation();
+            if (vehicle)
             {
-                component.enabled = true;
+                vehicle.active = true;
             }
-
+            GetComponentInParent<AppControllerScript>().SetDefaultScale();
+            if (name != "startarget")
+            {
+                MainManagerScript.nameModel = name;
+            }
+            else
+            {
+                MainManagerScript.haveTarget = true;
+                Debug.Log("target");
+            }
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
 
@@ -98,12 +119,14 @@ namespace Vuforia
                 component.enabled = false;
             }
 
-            // Disable colliders:
-            foreach (Collider component in colliderComponents)
+            if (vehicle)
             {
-                component.enabled = false;
+                vehicle.active = false;
             }
-
+            if (name == "startarget")
+            {
+                MainManagerScript.haveTarget = false;
+            }
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 

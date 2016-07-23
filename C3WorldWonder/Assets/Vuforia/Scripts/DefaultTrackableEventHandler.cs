@@ -18,7 +18,7 @@ namespace Vuforia
     {
         public string name;
 
-        public GameObject vehicle;
+        public GameObject Model;
         private MainManagerScript mainManagerScript;
 
         #region PRIVATE_MEMBER_VARIABLES

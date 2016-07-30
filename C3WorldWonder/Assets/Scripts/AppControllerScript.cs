@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class AppControllerScript : MonoBehaviour {
 
@@ -7,12 +8,12 @@ public class AppControllerScript : MonoBehaviour {
     private float zoom = 1;
     private Vector3[] defaultScale;
 
-    public GameObject[] model;
+	public List<GameObject> model = new List<GameObject>();
 
     void Awake()
     {
         rollScript = GetComponent<RollScript>();
-        for (int i = 0; i < model.Length; i++)
+		for (int i = 0; i < model.Count; i++)
         {
             model[i].GetComponent<RollScript>().enabled = false;
         }
@@ -20,7 +21,7 @@ public class AppControllerScript : MonoBehaviour {
 
     void Start()
     {
-        defaultScale = new Vector3[model.Length];
+		defaultScale = new Vector3[model.Count];
         for (int i = 0; i < defaultScale.Length; i++)
         {
             defaultScale[i] = model[i].transform.localScale;
@@ -29,7 +30,7 @@ public class AppControllerScript : MonoBehaviour {
 
     public void Roll()
     {
-        for (int i = 0; i < model.Length; i++)
+		for (int i = 0; i < model.Count; i++)
         {
             model[i].GetComponent<RollScript>().enabled = !model[i].GetComponent<RollScript>().enabled;
         }
@@ -40,7 +41,7 @@ public class AppControllerScript : MonoBehaviour {
         if (zoom  < 4f)
         {
             zoom *= 2;
-            for (int i = 0; i < model.Length; i++)
+			for (int i = 0; i < model.Count; i++)
             {
                 model[i].transform.localScale *= 2;
             }
@@ -49,16 +50,20 @@ public class AppControllerScript : MonoBehaviour {
 
     public void ZoomOut()
     {
-        if (zoom > 0.25f)
-        {
-            zoom /= 2;
-        }
+		if (zoom  > 0.25f)
+		{
+			zoom /= 2;
+			for (int i = 0; i < model.Count; i++)
+			{
+				model[i].transform.localScale /= 2;
+			}
+		}
     }
 
     public void SetDefaultScale()
     {
         zoom = 1;
-        for (int i = 0; i < model.Length; i++)
+		for (int i = 0; i < model.Count; i++)
         {
             model[i].transform.localScale = defaultScale[i];
         }
@@ -75,4 +80,13 @@ public class AppControllerScript : MonoBehaviour {
         Debug.Log("Disable");
         effect.active = false;
     }
+
+	[ContextMenu("SetModel")]
+	public void SetModel(){
+		model.Clear ();
+		var listModel = GetComponentsInChildren<RollScript> ();
+		for (int i = 0; i < listModel.Length; i++) {
+			model.Add (listModel [i].gameObject);
+		}
+	}
 }

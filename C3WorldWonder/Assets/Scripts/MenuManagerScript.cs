@@ -12,6 +12,7 @@ public class MenuManagerScript : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+		PlayerPrefs.SetInt ("Actived", 100);
         Screen.orientation = ScreenOrientation.Portrait;
         if (PlayerPrefs.GetInt("Actived", 0) == 100)
         {
@@ -77,5 +78,9 @@ public class MenuManagerScript : MonoBehaviour {
 
 			}
 		});
+	}
+
+	public void Game(){
+		Application.LoadLevelAsync("Game");
 	}
 }

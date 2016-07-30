@@ -90,9 +90,9 @@ namespace Vuforia
             }
 
             //gameObject.GetComponentInChildren<RollControllerScript>().ResetAnimation();
-            if (vehicle)
+			if (Model)
             {
-                vehicle.active = true;
+				Model.active = true;
             }
             GetComponentInParent<AppControllerScript>().SetDefaultScale();
             if (name != "startarget")
@@ -119,9 +119,9 @@ namespace Vuforia
                 component.enabled = false;
             }
 
-            if (vehicle)
+			if (Model)
             {
-                vehicle.active = false;
+				Model.active = false;
             }
             if (name == "startarget")
             {

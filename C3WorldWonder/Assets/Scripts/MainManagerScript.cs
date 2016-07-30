@@ -18,7 +18,7 @@ public class MainManagerScript : MonoBehaviour {
     void Awake()
     {
         appcontrollerScript = imageTarget.GetComponent<AppControllerScript>();
-        //PlayerPrefs.SetInt("Actived", 0);
+        PlayerPrefs.SetInt("Actived", 100);
         target = targetO;
     }
     void Start () {
@@ -29,8 +29,8 @@ public class MainManagerScript : MonoBehaviour {
     {
         if (PlayerPrefs.GetInt("Actived", 0) == 100)
         {
-            Debug.Log(appcontrollerScript.model.Length);
-            for (int i = 0; i < appcontrollerScript.model.Length; i++)
+			Debug.Log(appcontrollerScript.model.Count);
+			for (int i = 0; i < appcontrollerScript.model.Count; i++)
             {
                 appcontrollerScript.model[i].transform.parent.gameObject.active = true;
             }
@@ -38,7 +38,7 @@ public class MainManagerScript : MonoBehaviour {
         else
         {
             Debug.Log("InActive");
-            for (int i = 0; i < appcontrollerScript.model.Length; i++)
+			for (int i = 0; i < appcontrollerScript.model.Count; i++)
             {
                 appcontrollerScript.model[i].transform.parent.gameObject.active = false;
             }
